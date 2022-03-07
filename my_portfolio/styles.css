@@ -1,0 +1,132 @@
+@charset "UTF-8";
+body {
+    color: #343333;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    background-image: url(bokeh.jpg);
+    background-size: cover;
+  }
+
+#container {
+    width: 808px;
+    background-color: white;
+    margin: auto;
+    height: 2900px;
+}
+article {
+    margin-bottom: 50px;
+}
+
+/*Float the Aside so it displays next to Main.*/
+header {
+    width: 768px;
+    height: 250px;
+    background-color: #008000;
+    margin: auto;
+    background-image: url(header.jpg);
+    padding-bottom: 0px;
+}
+/*Float the Main so it shows up next to the Aside. Reduce width by 150px so they both line up with header.*/
+main {
+    width: 598px;
+    height: 579px;
+    float: left;
+    left: 20px;
+    padding-left: 20px;
+}
+img {
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    clear: both;
+}
+/*Clear the float so the footer shows up in the right place again.*/
+footer {
+    width: 837px;
+    height: 50px;
+    float: right;
+    background-color: #5E625E;
+    clear: both;
+}
+ul {
+    float: right;
+}
+.floatLeft {
+	float: left
+}
+aside {
+    width: 150px;
+    height: 4071px;
+    float: left;
+    background-color: #5E625E;
+    margin-right: 34px;
+}
+h1 {
+    color: #93292A;
+    font-family: dazzle-unicase,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 24pt;
+    margin-left: -30px;
+}
+h3 {
+    font-size: 21px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;}
+nav {
+    width: 768px;
+    margin: 0px 40px 0px 0px;
+    height: 50px;
+}
+#container nav li {
+    display: block;
+    list-style-type: none;
+    margin-top: 0px;
+    margin-right: 80px;
+    margin-bottom: 0px;
+    width: 60px;
+    float: left;
+    font-family: dazzle-unicase,sans-serif;
+    font-size: 18px
+}
+#container nav ul {
+    width: 565px;
+}
+nav a:link {
+    color: #6BE7FE;
+}
+nav a:visited {
+    color: #781C84;
+}
+nav a:hover {
+    color: #FFFFFF;
+	background-color: #6BE7FE;
+	padding: 10px;
+	border-radius: 20px;
+}
+nav a:active {
+    color: #5E625E;
+}.submit_btn {
+    width: 170px;
+    height: 30px;
+    background-color: #6BE7FD;
+    font-size: 17px;
+    color: #FFFFFF;
+    border-width: thin;
+    border-color: #000000;
+    -webkit-box-shadow: 6px 6px 31px 2px #000000;
+    box-shadow: 6px 6px 31px 2px #000000;
+}
+blockquote p em {
+}
+p {
+    float: right;
+    clear: both;
+}
+aside {
+    height: 2534px;
+}
